@@ -6,11 +6,26 @@ body{
     background-color: green;
     position: fixed;
     top: 0;
-    width: 100%;
     right: 0;
+    width: 100%;
     text-align: center;
 }
 
 #minha_foto{
-    
+    padding: 15px;
+}
+
+#menu{
+    background-color: rgb(8, 124, 76);
+}
+
+#menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;  
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
 }
