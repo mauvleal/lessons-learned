@@ -12,6 +12,7 @@ body {
   height: 93px;
   text-align: center;
   font-size: 1.1em;
+  border: 5px solid black;
 }
 
 #minha_foto {
@@ -26,6 +27,7 @@ body {
   text-align: left;
   font-family: fantasy;
   letter-spacing: 4px; 
+  
 }
 
 #menu ul li {
@@ -43,6 +45,25 @@ body {
 #licoes_aprendidas{
 display: inline-block;
 }
+
 #licoes_a_aprender{
 display: inline-block;
+}
+
+#table{
+    display: inline-block;
+    border: 1px solid green;
+    padding: 5px;
+    position: absolute;
+    left: 350px;
+    top: 620px;
+}
+
+#table tr th{
+    border: 1px solid green;
+}
+
+#table tr td{
+    border: 1px solid green;
+    text-align: center;
 }
