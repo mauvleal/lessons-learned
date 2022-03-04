@@ -1,15 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&family=Roboto+Condensed:wght@300&display=swap");
+
 body {
   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
   background-color: green;
-  padding: 15px;
   position: fixed;
   top: 0;
-  right: 0;
-  width: 100%;
-  height: 93px;
+  right: 1px;
+  left: 1px;
+  height: 109px;
   text-align: center;
   font-size: 1.1em;
   border: 5px solid black;
@@ -26,8 +27,8 @@ body {
   background-color: rgb(6, 63, 39);
   text-align: left;
   font-family: fantasy;
-  letter-spacing: 4px; 
-  
+  letter-spacing: 4px;
+  width: 100%;
 }
 
 #menu ul li {
@@ -39,31 +40,60 @@ body {
 #menu ul li a {
   text-decoration: none;
   color: aliceblue;
+  padding: 0 10px;
 }
 
-
-#licoes_aprendidas{
-display: inline-block;
+#menu ul li a:hover {
+  background-color: black;
 }
 
-#licoes_a_aprender{
-display: inline-block;
+#licoes_aprendidas {
+  display: inline-block;
 }
 
-#table{
-    display: inline-block;
-    border: 1px solid green;
-    padding: 5px;
-    position: absolute;
-    left: 350px;
-    top: 620px;
+#licoes_a_aprender {
+  display: inline-block;
 }
 
-#table tr th{
-    border: 1px solid green;
+#table {
+  display: inline-block;
+  padding: 5px 50px;
+  left: 350px;
+  top: 620px;
 }
 
-#table tr td{
-    border: 1px solid green;
-    text-align: center;
+#table tr th {
+  border: 1px solid green;
+}
+
+#main {
+  padding-bottom: 30px;
+  padding-left: 15px;
+}
+
+#table tr td {
+  border: 1px solid green;
+  text-align: center;
+}
+
+#section {
+  line-height: 1.2em;
+  font-family: Merienda, cursive;
+  min-height: 300px;
+}
+
+#rodape {
+  font-family: Roboto Condensed, sans-serif;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 40%;
+  padding-left: 30px;
+}
+
+.lado-direito {
+  float: right;
+  width: 40%;
+  padding-right: 30px;
 }
